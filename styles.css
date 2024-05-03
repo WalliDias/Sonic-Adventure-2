@@ -77,14 +77,20 @@ section.module.parallax::after{
 }
 
 section.module.parallax-1{
+    background-size: cover;
+    background-position: center;
     background-image: url(./Imagens/Sonic\ adv\ 2.jpg);
 }
 
 section.module.parallax-2{
+    background-size: cover;
+    background-position: center;
     background-image: url(./Imagens/Shadow\ adv\ 2.jpg);
 }
 
 section.module.parallax-3{
+    background-size: cover;
+    background-position: center;
     background-image: url(./Imagens/shadow\ e\ sonic.jpg);
 }
 
@@ -94,4 +100,47 @@ section.module.parallax h1{
     font-size: 78px;
     z-index: 50;
     text-transform: uppercase;
+}
+
+@media (min-width: 390px) {
+    section.module.content{
+        display: block;
+    }
+
+section.module.content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section.module.parallax h1{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        z-index: 50;
+        text-transform: uppercase;
+    }
+
+}
+
+
+@media (min-width: 390px) {
+    
+    section.module.parallax-1{
+    
+        background-image: url(./Imagens/Sonic\ adv\ 2.jpg);
+        
+        
+    }
+    
+    section.module.parallax-2{
+
+        background-image: url(./Imagens/Shadow\ adv\ 2.jpg);
+    }
+    
+    section.module.parallax-3{
+
+        background-image: url(./Imagens/shadow\ e\ sonic.jpg);
+    }
+
+
 }
